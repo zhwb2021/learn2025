@@ -9,6 +9,6 @@ public class TestController {
 
     @GetMapping("/hello/{name}")
     public String sayHello(@PathVariable String name) {
-        return "Hello From SpringBoot" + name;
+        return "Hello From SpringBoot \n pulled from gitHub" + name;
     }
 }
